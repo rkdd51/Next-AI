@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .btn {
+    @apply bg-green-500 tracking-wider text-center w-full text-white font-bold cursor-pointer uppercase rounded-md px-4 py-2 hover:bg-green-700 transition-all duration-1000 block;
+  }
+}
